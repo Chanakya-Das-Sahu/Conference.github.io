@@ -1,0 +1,121 @@
+html{
+    font-size:62.5%;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+body{
+ font-family:"Roboto",sans-serif;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:black;
+}
+
+nav img{
+  border:1px solid orange;
+  border-radius:50%;
+  margin:10px;
+}
+
+nav a{
+    text-decoration: none;
+    color:orange;
+    font-size:20px;
+   
+}
+
+#banner{
+    width:100%;
+    height:539px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    text-align:center;
+    /* background-image:url('background1.webp');
+    background-size:100%,100%;
+    background-repeat:no-repeat; */
+
+    background:brown;
+}
+#banner div{
+  margin:2px;
+  padding:-20px;
+}
+
+#company img{
+  margin-left:40px;
+  border-radius:10%;
+}
+
+#about{
+ display:flex;
+}
+
+#about div{
+ font-size:2rem;
+ text-align:start;
+ margin:10px;
+}
+
+#committee div{
+    font-size:2rem;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+
+#committee .MemberName{
+   color:blue;
+   font-weight:500;
+} 
+
+#speaker{
+   display:flex;
+   flex-direction:column;
+   text-align:center;
+   font-size:2rem;   
+}
+
+#speaker #CVC{
+   display:flex;
+   margin:1px auto;
+   gap:80px;
+}
+
+#speaker #C{
+   display:flex;
+   gap:80px;
+   margin:1px auto;
+}
+
+#speaker #CC{
+  display:flex;
+  gap:80px;
+  margin:1px auto;
+}
+
+#registration #contact{
+  display:flex;
+  justify-content:space-around;
+  text-align:center;
+  font-size:2.5rem;
+}
+
+#ab{
+    text-align:center;
+    margin:1px auto;
+    font-size:2.5rem;
+}
+
+.post{
+    color:red;
+    font-size:2.5rem;
+    font-weight:700;
+}
